@@ -104,8 +104,6 @@ public class TesteWeka {
             novo.setValue(9, death.getSexo());
             novo.setValue(10, death.getFumante());
                         
-            System.out.println("teste");
-        
             double prob[] = nb.distributionForInstance(novo);
             
             death.setProb1(prob[1]);
